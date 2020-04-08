@@ -1,0 +1,11 @@
+﻿  Source.cpp
+  triangle.cpp
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(14,1): error C2511: 'triangle::triangle(void)': overloaded member function not found in 'triangle'
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.h(4): message : see declaration of 'triangle'
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(15,2): error C2597: illegal reference to non-static member 'triangle::a'
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(16,2): error C2597: illegal reference to non-static member 'triangle::b'
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(17,2): error C2597: illegal reference to non-static member 'triangle::c'
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(21,7): warning C4551: function call missing argument list
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(30,7): warning C4551: function call missing argument list
+C:\Users\dinhc\OneDrive - actvn.edu.vn\OOP MIREA\1_2_1\1_2_1\triangle.cpp(31,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
