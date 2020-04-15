@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h" />
+    <ClInclude Include="derived1.h" />
+    <ClInclude Include="derived2.h" />
+    <ClInclude Include="derived3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="derived1.cpp" />
+    <ClCompile Include="derived2.cpp" />
+    <ClCompile Include="derived3.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{1541295C-8634-4963-BC12-88421FF39BE0}</ProjectGuid>
@@ -137,19 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ChildA.cpp" />
-    <ClCompile Include="ChildB.cpp" />
-    <ClCompile Include="ChildC.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="superClass.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ChildA.h" />
-    <ClInclude Include="ChildB.h" />
-    <ClInclude Include="ChildC.h" />
-    <ClInclude Include="superClass.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

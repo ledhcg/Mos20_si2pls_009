@@ -1,7 +1,6 @@
-#include <iostream>
-using namespace std;
-
+#include "derived3.h"
 
 int main() {
-	cout << "Hello";
+	derived3 d;
+	d.doIt();
 }

@@ -1,2 +1,15 @@
-﻿  Source.cpp
-  4_3_1.vcxproj -> D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\Debug\4_3_1.exe
+﻿  ChildA.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\superClass.h(4,17): error C2011: 'superClass': 'class' type redefinition
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\superClass.h(4): message : see declaration of 'superClass'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\ChildA.cpp(13,9): error C2065: 'sizeOfArray': undeclared identifier
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\ChildA.cpp(14,22): error C2065: 'sizeOfArray': undeclared identifier
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\ChildA.cpp(15,10): error C2065: 'arr': undeclared identifier
+  ChildC.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\superClass.h(4,17): error C2011: 'superClass': 'class' type redefinition
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\superClass.h(4): message : see declaration of 'superClass'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\ChildB.h(6,1): error C2504: 'superClass': base class undefined
+  Source.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\superClass.h(4,17): error C2011: 'superClass': 'class' type redefinition
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\superClass.h(4): message : see declaration of 'superClass'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\4_3_1\4_3_1\ChildB.h(6,1): error C2504: 'superClass': base class undefined
+  Generating Code...
