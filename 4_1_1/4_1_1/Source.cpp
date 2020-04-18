@@ -1,7 +1,14 @@
+
 #include <iostream>
-#include <stack>
 using namespace std;
 
-int main() {
+#include "cl_application.h"
 
+int main()
+{
+    cl_application  ob_application;
+
+    ob_application.bild_tree_objects();
+
+    return ob_application.exec_app();
 }

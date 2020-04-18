@@ -10,3 +10,4 @@ void derived1::getArr() {
 		cin >> arr[i];
 }
 
+

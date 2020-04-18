@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  stacks.cpp
+  Generating Code...
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall stacks::~stacks(void)" (??1stacks@@QAE@XZ) referenced in function _main
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\3_2_9_1 (new)\Debug\3_2_9_1 (new).exe : fatal error LNK1120: 1 unresolved externals
