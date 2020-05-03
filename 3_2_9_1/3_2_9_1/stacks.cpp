@@ -44,11 +44,8 @@ bool stacks::peek() {
 	}
 }
 void stacks::showStack(int i) {
-	if (i >= 0 && i < capacity) {
+	if (i >= 0 && i < capacity) 
 		cout << setw(15) << right << stack[i];
-	}
-	else
-		cout << setw(15) << right << " ";
 }
 string stacks::getNameStack() {
 	return nameStack;

@@ -17,36 +17,40 @@ int main() {
 	
 
 
-	while (stack1.isFull() == false || stack2.isFull() == false) {
+	while (true) {
 		
 			int value;
 			cin >> value;
-			stack1.push(value);
-			stack2.push(value);
+			if (stack1.isFull() == false)
+				stack1.push(value);
+			else
+				break;
+			if (stack2.isFull() == false)
+				stack2.push(value);
+			else
+				break;
 
 	};
 	 
-	cout << stack1.getNameStack() << " " << stack1.getSize() << endl;
-	cout << stack2.getNameStack() << " " << stack2.getSize() << endl;
+	cout << stack1.getNameStack() << " " << stack1.getCapacity() << endl;
+	cout << stack2.getNameStack() << " " << stack2.getCapacity() << endl;
 
-	cout << setw(15) << left << stack1.getNameStack() << setw(15) << left << stack2.getNameStack() << endl;
+	cout << setw(15) << left << stack1.getNameStack() << setw(15) << left << stack2.getNameStack();
 	int distance = capacity1 - capacity2;
-	if (distance >= 0) {
+	if (distance <= 0) {
 		for (int i = capacity1 - 1; i >= 0; i--) {
-			stack1.showStack(i);
-			stack2.showStack(i-distance);
 			cout << endl;
+			stack1.showStack(i);
+			stack2.showStack(i);
 		};
 	}
 	else {
-		for (int i = capacity2 - 1; i >= 0; i--) {
-			stack1.showStack(i+distance);
-			stack2.showStack(i);
+		for (int i = capacity2; i >= 0; i--) {
 			cout << endl;
+			stack1.showStack(i);
+			stack2.showStack(i-1);
 		};
 	}
 	
-
-
 	return 0;
 }
