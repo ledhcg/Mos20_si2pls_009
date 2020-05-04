@@ -69,7 +69,7 @@ void cl_application::addNewChild(cl_base* ob_parent, string nameParent, string n
 		if (get_object_name((cl_base*)ob_parent->children.at(i)) == nameParent) {
 			ob_2 = new cl_2((cl_base*)ob_parent->children.at(i));
 			ob_2->set_object_name(nameChild);
-			if (get_state((cl_base*)ob_parent->children.at(i)) == 1) {
+			if (get_state((cl_base*)ob_parent->children.at(i)) > 0) {
 				ob_2->set_state(state);
 			}
 			else {
@@ -84,7 +84,7 @@ void cl_application::addNewChild(cl_base* ob_parent, string nameParent, string n
 			if (get_object_name((cl_base*)ob_parent->children.at(i)) == nameParent) {
 				ob_3 = new cl_3((cl_base*)ob_parent->children.at(i));
 				ob_3->set_object_name(nameChild);
-				if (get_state((cl_base*)ob_parent->children.at(i)) == 1) {
+				if (get_state((cl_base*)ob_parent->children.at(i)) > 0) {
 					ob_3->set_state(state);
 				}
 				else {
@@ -99,7 +99,7 @@ void cl_application::addNewChild(cl_base* ob_parent, string nameParent, string n
 			if (get_object_name((cl_base*)ob_parent->children.at(i)) == nameParent) {
 				ob_4 = new cl_4((cl_base*)ob_parent->children.at(i));
 				ob_4->set_object_name(nameChild);
-				if (get_state((cl_base*)ob_parent->children.at(i)) == 1) {
+				if (get_state((cl_base*)ob_parent->children.at(i)) > 0) {
 					ob_4->set_state(state);
 				}
 				else {
@@ -127,7 +127,7 @@ void cl_application::show_object_state() {
 
 void cl_application::show_state_next(cl_base* ob_parent, int i) {
 	
-	cout << setw(i*4) << right << get_object_name(ob_parent) << endl;
+	cout << endl << setw(i*4) << right << get_object_name(ob_parent);
 	
 	if (ob_parent->children.size() == 0)
 		return;

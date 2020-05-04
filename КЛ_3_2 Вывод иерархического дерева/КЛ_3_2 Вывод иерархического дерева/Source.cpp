@@ -12,7 +12,7 @@ int main()
 
     ob_application.bild_tree_objects();
 
-    cout << "Object tree" << endl;
+    cout << "Object tree";
 
     return ob_application.exec_app();
 }

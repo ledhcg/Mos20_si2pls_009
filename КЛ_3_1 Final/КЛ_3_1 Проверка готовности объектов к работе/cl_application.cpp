@@ -127,10 +127,10 @@ void cl_application::show_object_state() {
 void cl_application::show_state_next(cl_base* ob_parent) {
 	
 	if (get_state(ob_parent) > 0) {
-		cout << "The object " << get_object_name(ob_parent) << " is ready" << endl;
+		cout <<endl<< "The object " << get_object_name(ob_parent) << " is ready";
 	}
 	else {
-		cout << "The object " << get_object_name(ob_parent) << " is not ready" << endl;
+		cout <<endl<< "The object " << get_object_name(ob_parent) << " is not ready";
 	}
 	if (ob_parent->children.size() == 0)
 		return;
