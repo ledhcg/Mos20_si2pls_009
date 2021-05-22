@@ -1,0 +1,24 @@
+﻿  cl_1.cpp
+  cl_2.cpp
+  cl_3.cpp
+  cl_base.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(41,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(51,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(58,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(72,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(94,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(109,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.cpp(135,27): warning C4018: '<': signed/unsigned mismatch
+  cl_root.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(68,31): error C2039: 'signal': is not a member of 'cl_base'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.h(11): message : see declaration of 'cl_base'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(68,31): error C2660: 'cl_base::set_connect': function does not take 1 arguments
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.h(42,10): message : see declaration of 'cl_base::set_connect'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(68,59): error C2039: 'handler': is not a member of 'cl_base'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_base.h(11): message : see declaration of 'cl_base'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(68,59): error C2059: syntax error: ')'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(68,81): error C2059: syntax error: ')'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(78,23): warning C4018: '<': signed/unsigned mismatch
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\NEW LAB 3_4\NEW LAB 3_4\cl_root.cpp(75): fatal error C1075: '{': no matching token found
+  Source.cpp
+  Generating Code...

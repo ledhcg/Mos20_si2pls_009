@@ -1,0 +1,12 @@
+﻿D:\Program\VS\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (КЛ_3_2 Вывод иерархического дерева.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+  cl_2.cpp
+  cl_3.cpp
+  cl_4.cpp
+  cl_5.cpp
+  cl_6.cpp
+  cl_application.cpp
+  cl_base.cpp
+  Generating Code...
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Final\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(39): warning C4715: 'cl_application::scanTextFinish': not all control paths return a value
+  КЛ_3_2 Вывод иерархического дерева.vcxproj -> D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Final\Debug\КЛ_3_3 Определение указателя на объект по его координате.exe

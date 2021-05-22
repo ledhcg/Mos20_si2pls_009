@@ -2,8 +2,8 @@
 
 using namespace std;
 
-cl_application :: cl_application (string name ){ 
-	set_object_name (name); 
+cl_application :: cl_application (cl_base* ob_parent, string name ){
+	this->set_object_name (name); 
 } 
 
 void cl_application :: bild_tree_objects (){                                  
@@ -58,7 +58,7 @@ void cl_application::add_new_child(cl_base* ob_parent, string nameParent, string
 	}
 
 	void cl_application::show_child(cl_base* ob_parent) {
-		cout << " " << get_object_name(ob_parent);
+		cout << "  " << get_object_name(ob_parent);
 	}
 
 	void cl_application::show_state_next(cl_base * ob_parent) {

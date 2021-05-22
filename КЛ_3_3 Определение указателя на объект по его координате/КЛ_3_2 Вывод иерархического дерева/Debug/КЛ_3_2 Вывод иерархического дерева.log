@@ -1,0 +1,15 @@
+﻿D:\Program\VS\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (КЛ_3_2 Вывод иерархического дерева.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  cl_2.cpp
+  cl_3.cpp
+  cl_4.cpp
+  cl_5.cpp
+  cl_6.cpp
+  cl_application.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Определение указателя на объект по его координате\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(49,9): warning C4101: 'ob_5': unreferenced local variable
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Определение указателя на объект по его координате\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(48,9): warning C4101: 'ob_4': unreferenced local variable
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Определение указателя на объект по его координате\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(47,9): warning C4101: 'ob_3': unreferenced local variable
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Определение указателя на объект по его координате\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(50,9): warning C4101: 'ob_6': unreferenced local variable
+  cl_base.cpp
+  Source.cpp
+  Generating Code...
+  КЛ_3_2 Вывод иерархического дерева.vcxproj -> D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 Определение указателя на объект по его координате\Debug\КЛ_3_3 Определение указателя на объект по его координате.exe

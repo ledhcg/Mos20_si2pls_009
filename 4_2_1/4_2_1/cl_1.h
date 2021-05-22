@@ -2,12 +2,17 @@
 #define CL_1_H
 #include <string>
 using namespace std;
+
 class cl_1
 {
 public:
-	int serial;
-	string ident;
-	cl_1(string ident, int number);
+	cl_1(string nameObject);
+	cl_1(string nameObject, int x);
+private:
+	string nameObject;
+	int number = 1;
 };
 
+
 #endif // !CL_1_H
+

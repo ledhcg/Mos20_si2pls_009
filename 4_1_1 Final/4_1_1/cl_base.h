@@ -21,7 +21,6 @@ class cl_base
 {
 
 public:
-
     cl_base(cl_base* p_parent = 0);
 
 

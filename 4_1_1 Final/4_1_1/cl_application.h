@@ -15,7 +15,7 @@ class cl_application : public cl_base
 
 public:
 
-    cl_application(string name);
+    cl_application(cl_base* ob_parent, string name );
 
     void bild_tree_objects();
     int exec_app();

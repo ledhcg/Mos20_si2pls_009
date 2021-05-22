@@ -1,0 +1,2 @@
+﻿D:\Program\VS\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (КЛ_3_4 Сигналы и обработчики.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  КЛ_3_4 Сигналы и обработчики.vcxproj -> D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_4 Final\Debug\КЛ_3_4 clear.exe

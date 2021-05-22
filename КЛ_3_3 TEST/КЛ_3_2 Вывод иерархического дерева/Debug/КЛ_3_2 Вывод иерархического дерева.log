@@ -1,0 +1,10 @@
+﻿D:\Program\VS\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (КЛ_3_2 Вывод иерархического дерева.vcxproj, КЛ_3_3 Определение указателя на объект по его координате.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  cl_application.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 TEST\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(195,25): error C2664: 'bool cl_base::getStateDo(cl_base *)': cannot convert argument 1 from 'bool' to 'cl_base *'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 TEST\КЛ_3_2 Вывод иерархического дерева\cl_application.cpp(195,20): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 TEST\КЛ_3_2 Вывод иерархического дерева\cl_base.h(48,10): message : see declaration of 'cl_base::getStateDo'
+  temp.cpp
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 TEST\КЛ_3_2 Вывод иерархического дерева\temp.cpp(195,25): error C2664: 'bool cl_base::getStateDo(cl_base *)': cannot convert argument 1 from 'bool' to 'cl_base *'
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 TEST\КЛ_3_2 Вывод иерархического дерева\temp.cpp(195,20): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\Onedrive\OneDrive - actvn.edu.vn\OOP MIREA\Mos20_si2pls_009\КЛ_3_3 TEST\КЛ_3_2 Вывод иерархического дерева\cl_base.h(48,10): message : see declaration of 'cl_base::getStateDo'
+  Generating Code...

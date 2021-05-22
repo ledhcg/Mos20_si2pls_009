@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "КЛ_3_2 Вывод иерархического дерева", "КЛ_3_2 Вывод иерархического дерева\КЛ_3_2 Вывод иерархического дерева.vcxproj", "{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Debug|x64.ActiveCfg = Debug|x64
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Debug|x64.Build.0 = Debug|x64
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Debug|x86.ActiveCfg = Debug|Win32
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Debug|x86.Build.0 = Debug|Win32
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Release|x64.ActiveCfg = Release|x64
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Release|x64.Build.0 = Release|x64
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Release|x86.ActiveCfg = Release|Win32
+		{8750D92D-59B8-4D0B-836A-A5B33EA8F49E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E6C0DEF-3E62-4F63-9D7C-70991D9BD7F3}
+	EndGlobalSection
+EndGlobal

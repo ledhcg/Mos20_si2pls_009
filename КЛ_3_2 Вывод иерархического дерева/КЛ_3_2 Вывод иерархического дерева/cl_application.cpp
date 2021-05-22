@@ -90,6 +90,15 @@ void cl_application::addNewChild(cl_base* ob_parent, string nameParent, string n
 	cl_4* ob_4;
 	cl_5* ob_5;
 	cl_6* ob_6;
+
+
+
+	//Test
+	cl_6 a = new cl_base(this);
+
+
+
+
 	if (selectFamily == 2) {
 	for (size_t i = 0; i < ob_parent->children.size(); i++) {
 		if (get_object_name((cl_base*)ob_parent->children.at(i)) == nameParent) {
